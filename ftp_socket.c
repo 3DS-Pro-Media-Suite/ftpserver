@@ -10,7 +10,6 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-#define NANOSECONDS_PER_MILLISECOND 1000000LL
 #define READ_WAIT_NAP_MS 10
 // poll(POLLOUT) on the 3DS wakes up late: a full send buffer is waited out in short naps.
 #define WRITE_WAIT_NAP_MS 1

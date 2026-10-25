@@ -4,6 +4,8 @@
 #include <stdbool.h>
 #include <stddef.h>
 
+#define NANOSECONDS_PER_MILLISECOND 1000000LL
+
 void ftp_socket_nap(int milliseconds);
 
 void ftp_socket_set_nonblocking(int fd);

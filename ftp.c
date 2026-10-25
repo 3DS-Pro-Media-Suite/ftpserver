@@ -27,7 +27,6 @@
 #define ACCEPT_FAILURE_NAP_MS 100
 #define ACCEPT_FAILURE_LIMIT 10
 #define NETWORK_CHECK_INTERVAL_MS 1000
-#define NANOSECONDS_PER_MILLISECOND 1000000ULL
 #define STOP_JOIN_TIMEOUT_MS 2000
 #define STOP_SESSION_WAIT_MS 4000 // a closing session may wait a few seconds for its client to hang up
 #define STOP_SESSION_POLL_MS 10
